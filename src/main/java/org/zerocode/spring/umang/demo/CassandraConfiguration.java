@@ -23,7 +23,7 @@ import org.springframework.data.cassandra.core.convert.MappingCassandraConverter
 import org.springframework.data.cassandra.core.mapping.CassandraMappingContext;
 
 /**
- * @author A1330716
+ *
  * @version 1.0
  * @since 2017-04-05
  *
