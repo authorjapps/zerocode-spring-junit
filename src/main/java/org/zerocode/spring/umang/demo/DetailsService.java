@@ -14,8 +14,7 @@ import rx.Observable;
 import rx.observers.AssertableSubscriber;
 
 /**
- * @author A1330716
- * @author A1328535
+*
  * @version 1.0
  * @since 04/06/2017
  * @modified 08/15/2017
