@@ -22,7 +22,7 @@ import org.springframework.web.context.request.async.DeferredResult;
 import rx.Observable;
 
 /**
- * @author A1330716
+ * 
  * @version 1.0
  * @since 2017-04-05 This controller class defines the URI, request Method,
  *        response type and request type of REST service.
