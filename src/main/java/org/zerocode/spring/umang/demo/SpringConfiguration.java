@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  *
- * @author A1328535
+ * 
  *
  *         The Class SpringConfiguration.
  */
