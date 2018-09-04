@@ -10,6 +10,7 @@ The Spring JUnit tests are located here-
 You can run and debug this as JUnit.
   
 ### Which runner was used for the Spring test ?
+See: `ZeroCodeSpringJUnit4Runner.java` (see next section why this was used)
 The below runner was used -
 + `ZeroCodeSpringJUnit4Runner.class` , 
 See below- 
@@ -22,6 +23,9 @@ public class MachineLearningServiceTest {
 ```
 
 You can run and debug this as JUnit.
+
+### Why this runner was used for the tests instead of JUnit runner or no runner at all ?
+With JUnit default runner, the load tests still work fine, but no CSV reports are generated because to generate CSV reports, the ZeroCode framework needs to be aware of the tests. Via `ZeroCodeSpringJUnit4Runner` Zerocode framework listens to the tests and records the result in the CSV file.
 
 ### Which runner was used for Load testing ?
 The below runner -
