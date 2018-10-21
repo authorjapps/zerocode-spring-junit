@@ -1,3 +1,7 @@
+### Why this project is tagged as `less-common` ?
+This approach has been set up and used by one of our user in USA(not revealed due to business reason of the Bank). `less-common` has been tagged because, this project actually doesn't use the usual JSON payload/assertions, instead this is a Cassandra application developed using Spring Boot. The `Solution Architect` used his creativity to load/stress test this application much before the app hits SIT/UAT and at the same time he was looking for some useful load/stress reports for analytics purpose. He wanted to do it in the production code base stubbing/virtualizing the dependancies to get the performance benchmaking of the app under different CPU/Memory conditions with reusing some of his existing junit test cases. JUnit runners were the best fit for this situation. Hence with help of him, we developed this Load Runner `ZeroCodeSpringJUnit4Runner`, so that anyone in the simillar situation can reuse this code or further extend it.
+
+
 # JUnit + Zerocode + Spring example
 This demo project exaplins how [JUnit](https://github.com/junit-team/junit4) and [Zerocode](https://github.com/authorjapps/zerocode) test framework based integration-tests for a spring-boot application can make your life easy everyday.
 
